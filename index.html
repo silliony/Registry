@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./script/chart.min.js"></script>
+    <title>Registry</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar">
+            <ul class="navbar-menu">
+              <li>
+                <a href="#">Menu</a>
+                <ul>
+                  <li><a href="#">Geral</a></li>
+                  <li><a href="menu_maq.html">Máquinas e acessórios</a></li>
+                  <li><a href="menu_aluguel.html">Alugueis</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Financeiro</a>
+                <ul>
+                  <li><a href="#">Geral</a></li>
+                  <li><a href="#">Rendimentos</a></li>
+                  <li><a href="#">Gastos</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Ajustes</a></li>
+            </ul>
+        </div>
+      </nav>
+      <section>
+        <canvas id="myChart"></canvas>
+      </section>
+    </div>
+  <script src="./script/index.js"></script>
+  </body>
+</html>

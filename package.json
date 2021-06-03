@@ -1,0 +1,15 @@
+{
+  "name": "rentrac",
+  "version": "1.0.0",
+  "description": "An app for rent managment.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Silliony",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.0.1"
+  },
+  "dependencies": {}
+}
